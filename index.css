@@ -1,23 +1,18 @@
-* {
-    margin:0;
-    padding: 0;
- }
- 
- .header {
-    display : flex;
-    align-items: center;
-    justify-content: space-between;
-    background: #ffffff;
-    font-family: 'Nunito', sans-serif;
-    padding: 10px 20px;
-    padding-right: 30px;
- }
- 
- .logo{
-    width: 60px;
- }
- 
- .search-box {
+
+.header {
+   display : flex;
+   align-items: center;
+   justify-content: space-between;
+   background: var(--white);
+   padding: 10px 20px;
+   padding-right: 30px;
+}
+
+.logo{
+   width: 60px;
+}
+
+.search-box {
    background: #f3eff0;
    width: 500px;
    height: 40px;
@@ -27,47 +22,46 @@
    justify-content: center;
    transform: translateX(-150px);
 }
- 
+
 .search-box input{
    background: #f3eff0;
    border: none;
    outline: none;
    width: 450px;
 }
- 
+
 .lupa{
    width: 20px;
-   color: #6A6966;
+   color: var(--drakgrey);
 }
- 
+
 .nav{
    display: flex;
 }
- 
+
 .ul{
    list-style: none;
    border: 10px;
    display: flex;
    gap: 25px;
    align-items: center;
-}
- 
+   }
+
 .nav__imgmark{
    width: 30px;
 }
- 
+
 .nav__imgmenssage{
    width: 50px;
 }
- 
+
 .profile{
    width: 50px;
 }
- 
+
 .nav figure{
    display: flex;
    align-items: center;
-   font-family: 'Nunito', sans-serif;
    font-weight:bold;
    color: #2d2d2d;
    gap: 15px;
