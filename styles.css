@@ -2,10 +2,10 @@
     margin:0;
     padding: 0;
     font-family: 'Nunito', sans-serif;
+    box-sizing: border-box;
 }
 
 :root {
     --white: #FFFFFF;
     --drakgrey: #6A6966;
-
 }
