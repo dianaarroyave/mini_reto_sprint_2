@@ -1,0 +1,38 @@
+.info__hotels {
+    height: 100%;
+}
+
+.hotel__information {
+    display: flex;
+    
+}
+
+.container__hotel--information {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-content: space-between;
+}
+
+.container__hotel--description {
+    margin: 8%;
+    background-color: var(--white);
+    padding: 7%;
+    color: var(--drakgrey);
+    font-size: var(--sm);
+}
+
+.container__hotel--specifications {
+    margin: 8%;
+    background-color: var(--white);
+    padding: 5%;
+    color: var(--drakgrey);
+    margin-left: -4%;
+    font-size: var(--md);
+}
+
+.hotel__price {
+    font-weight:bold;
+    font-size: var(--lg);
+    color: var(--redwine)
+}

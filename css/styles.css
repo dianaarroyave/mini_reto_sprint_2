@@ -1,0 +1,22 @@
+* {
+    margin:0;
+    padding: 0;
+    font-family: 'Nunito', sans-serif;
+    box-sizing: border-box;
+}
+
+:root {
+    --white: #FFFFFF;
+    --drakgrey: #6A6966;
+    --ligthgrey: #ECE7DF; 
+    --redwine: #E74C3C ;
+    --sm: 15px;
+    --md: 16px;
+    --lg: 20px;
+}
+
+main {
+    display: flex;
+    flex-direction: row;
+    background-color: var(--ligthgrey);
+}
