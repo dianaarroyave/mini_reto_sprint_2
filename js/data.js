@@ -199,3 +199,4 @@ export const hotelsData = [
         price: 10
     }
 ];
+
