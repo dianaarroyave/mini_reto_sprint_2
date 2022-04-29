@@ -1,6 +1,5 @@
 export const hotelsData = [
     {
-        id: 1,
         slug: "la-bamba-de-areco",
         name: "La Bamba de Areco",
         photo: "https://i.ibb.co/jyQwBQn/1-La-bamba-de-areco.jpg",
@@ -200,3 +199,4 @@ export const hotelsData = [
     }
 ];
 
+export { hotelsData }; 

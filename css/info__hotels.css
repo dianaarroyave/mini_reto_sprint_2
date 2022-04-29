@@ -2,6 +2,17 @@
     height: 100%;
 }
 
+.hero{
+    width: 1000px;
+    height: 200px;
+    display: flex;
+    overflow-x: scroll;
+}
+
+.hero img {
+    height: 100%;
+}
+
 .hotel__information {
     display: flex;
     
@@ -15,6 +26,7 @@
 }
 
 .container__hotel--description {
+    width: 400x;
     margin: 8%;
     background-color: var(--white);
     padding: 7%;
@@ -30,6 +42,8 @@
     margin-left: -4%;
     font-size: var(--md);
 }
+
+.hotel__ubication
 
 .hotel__price {
     font-weight:bold;
