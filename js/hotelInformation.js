@@ -1,8 +1,15 @@
 const hotelInformation = document.getElementById("hotel__information");
+const containerHotelsName = document.getElementById("hotel__name")
 
 export function printInformation (element) {
+
+    containerHotelsName.innerHTML = ""
     hotelInformation.innerHTML = ""
-    //creamos el div
+
+    const hotelName = document.createElement("h2");
+    hotelName.textContent = element.name
+    containerHotelsName.appendChild(hotelName);
+
     const containerInformation = document.createElement("div");
     //le agregamos la clase
     containerInformation.setAttribute("class", "container__hotel--information");
@@ -31,11 +38,9 @@ export function printInformation (element) {
     listElementCountry.textContent = element.country;
     listUbication.appendChild(listElementCountry);
 
-
     const listElementCity = document.createElement("li");
     listElementCity.textContent = element.city;
     listUbication.appendChild(listElementCity);
-
 
     const listElementRooms = document.createElement("li");
     listElementRooms.textContent = element.rooms;
