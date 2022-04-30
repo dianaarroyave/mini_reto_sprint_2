@@ -1,4 +1,4 @@
-export const hotelsData = [
+const hotelsData = [
     {
         slug: "la-bamba-de-areco",
         name: "La Bamba de Areco",
@@ -199,4 +199,4 @@ export const hotelsData = [
     }
 ];
 
-export { hotelsData }; 
+export { hotelsData };

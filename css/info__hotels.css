@@ -3,8 +3,8 @@
 }
 
 .hero{
-    width: 1000px;
-    height: 200px;
+    width: 80%;
+    height: 300px;
     display: flex;
     overflow-x: scroll;
 }
@@ -26,25 +26,27 @@
 }
 
 .container__hotel--description {
-    width: 400x;
-    margin: 8%;
+    width: 800px;
+    margin: 50px;
     background-color: var(--white);
-    padding: 7%;
+    padding: 30px;
     color: var(--drakgrey);
     font-size: var(--sm);
 }
 
 .container__hotel--specifications {
-    margin: 8%;
+    width: 200px;
+    margin: 50px;
     background-color: var(--white);
-    padding: 5%;
+    padding: 30px;
     color: var(--drakgrey);
-    margin-left: -4%;
-    font-size: var(--md);
+    font-size: var(--sm);
 }
 
-.hotel__ubication
 
+.hotel__ubication li{
+    list-style: none;
+}
 .hotel__price {
     font-weight:bold;
     font-size: var(--lg);
